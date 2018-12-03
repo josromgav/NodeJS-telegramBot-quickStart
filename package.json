@@ -1,0 +1,21 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "Telegram bot with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node telegramBot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josromgav",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2"
+  },
+  "devDependencies": {
+    "curl": "^0.1.4",
+    "jquery": "^3.3.1",
+    "jsdom": "^13.0.0"
+  }
+}
