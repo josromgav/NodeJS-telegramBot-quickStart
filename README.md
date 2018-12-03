@@ -14,8 +14,8 @@ How to install(requires NPM and NodeJS installed):
 how to run:
   npm start
   
-How to create a telegram bot and obtain key:
+How to create a telegram bot and obtain bot token:
 -Add botfather to your telegram contacts.
 -/newbot on botfather conversation window.
 -Give the bot a name.
--Copy the obtained key into this javascript code.
+-Copy the obtained token into this javascript code.
