@@ -4,6 +4,7 @@ var urlToAsk = 'https://api.telegram.org/bot'+token+"/getUpdates?offset=-1";
 var parsemode = 'markdown';
 var urltoSend = 'https://api.telegram.org/bot'+token+"/sendMessage?text=<message>&chat_id=<chat_id>&parse_mode="+parsemode;
 var lastUpdateId = 0;
+var pollingRate = 4000;
 
 run();
 
@@ -11,7 +12,7 @@ function run(){
     console.log('Bot listening, talk to it in order to receive response messages.');
     setInterval(function intervalTrigger(){
         analyzeLastUpdate();
-    },4000);
+    },pollingRate);
 }
 
 function attendService(response){
